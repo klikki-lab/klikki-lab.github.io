@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const DEFAULT_IMAGE_WIDTH = 96;
 const DEFAULT_IMAGE_HEIGHT = 96;
 
@@ -35,7 +33,7 @@ export const createImageElement = (props: ImageFormatProps) => {
 
     if (isRasterFormat(props)) {
         return (
-            <Image
+            <img
                 className='d-block mx-auto'
                 src={props.src}
                 width={width}

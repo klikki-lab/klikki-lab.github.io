@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from './header.module.css'
@@ -17,12 +16,11 @@ export const CommonHeader = (): JSX.Element => {
         <header className={styles.header}>
             <nav className={styles.brand} aria-label='brand'>
                 <Link href={directory} title={title}>
-                    <Image
+                    <img
                         src="/images/profile.png"
                         width={size}
                         height={size}
                         alt={authorName}
-                        priority={true}
                     />
                     <span>{authorName}</span>
                 </Link>
