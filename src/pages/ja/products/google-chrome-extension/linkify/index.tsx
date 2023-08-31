@@ -1,11 +1,11 @@
-import { ReactElement } from "react";
-import { NextPageWithLayout } from "@/pages/_app";
+import { ReactElement } from 'react';
+import { NextPageWithLayout } from '@/pages/_app';
 import utilStyles from '@/styles/utils.module.css'
-import { TitleHeader } from "@/components/header/titleHeader";
-import CommonLayout from "@/components/layout/commonLayout";
-import { CommonFooter } from "@/components/footer/commonFooter";
-import CommonHead from "@/components/head/commonHead";
-import Link from "next/link";
+import { TitleHeader } from '@/components/header/titleHeader';
+import CommonLayout from '@/components/layout/commonLayout';
+import { CommonFooter } from '@/components/footer/commonFooter';
+import CommonHead from '@/components/head/commonHead';
+import Link from 'next/link';
 
 const appName = 'Linkify';
 
@@ -22,7 +22,7 @@ const Linkify: NextPageWithLayout = () => {
                 <h1 className={utilStyles.headingLg}>この拡張機能について</h1>
                 <p>
                     リンクされていない URL 文字列をダブルクリックするだけでそのページに移動できます。
-                    以下のような \"h\" 抜き URL 、全角 URL に対応しています。
+                    以下のような &quot;h&quot; 抜き URL 、全角 URL に対応しています。
                 </p>
                 <ul>
                     <li>{'https://www.google.com'}</li>
@@ -49,7 +49,7 @@ Linkify.getLayout = (page: ReactElement): React.ReactNode => {
 
             <CommonFooter />
             {/* <CommonFooter props={[
-                { name: `${t("name", { ns: Locales.LINKIFY })} ${t("privacyPolicy")}`, url: './linkify/privacy-policy' },
+                { name: `${t('name', { ns: Locales.LINKIFY })} ${t('privacyPolicy')}`, url: './linkify/privacy-policy' },
             ]} /> */}
         </>
     )

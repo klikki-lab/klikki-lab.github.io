@@ -22,7 +22,7 @@ const Products: NextPageWithLayout = (): JSX.Element => {
             </section>
             <section>
                 <h3 className={`${utilStyles.headingMd}`}>
-                    <Link href={`${DIRECTORY}/google-chrome-extension`}>google-chrome-extension</Link>
+                    <Link href={`${DIRECTORY}/google-chrome-extension`}>Google Chrome Extension</Link>
                 </h3>
                 <GoogleChromeExtension />
             </section>

@@ -1,11 +1,11 @@
-import { ReactElement } from "react";
-import { NextPageWithLayout } from "@/pages/_app";
+import { ReactElement } from 'react';
+import { NextPageWithLayout } from '@/pages/_app';
 import utilStyles from '@/styles/utils.module.css'
-import { TitleHeader } from "@/components/header/titleHeader";
-import CommonLayout from "@/components/layout/commonLayout";
-import { CommonFooter } from "@/components/footer/commonFooter";
-import CommonHead from "@/components/head/commonHead";
-import Link from "next/link";
+import { TitleHeader } from '@/components/header/titleHeader';
+import CommonLayout from '@/components/layout/commonLayout';
+import { CommonFooter } from '@/components/footer/commonFooter';
+import CommonHead from '@/components/head/commonHead';
+import Link from 'next/link';
 
 const appName = 'Linkify';
 
@@ -49,7 +49,7 @@ Linkify.getLayout = (page: ReactElement): JSX.Element => {
 
             <CommonFooter />
             {/* <CommonFooter props={[
-                { name: `${t("name", { ns: Locales.LINKIFY })} ${t("privacyPolicy")}`, url: './linkify/privacy-policy' },
+                { name: `${t('name', { ns: Locales.LINKIFY })} ${t('privacyPolicy')}`, url: './linkify/privacy-policy' },
             ]} /> */}
         </>
     )

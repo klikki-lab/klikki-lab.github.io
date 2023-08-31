@@ -45,7 +45,7 @@ const PrivacyPolicyPage: NextPageWithLayout = (): JSX.Element => {
                 <h2 className={utilStyles.headingMd}>更新履歴</h2>
                 <ul>
                     <li>発効日: 2023年8月3日</li>
-                    <li>更新日: 2023年8月27日 文章の校正と日本語の追加。</li>
+                    <li>更新日: 2023年8月31日 文章の校正と日本語の追加。</li>
                 </ul>
 
             </main>

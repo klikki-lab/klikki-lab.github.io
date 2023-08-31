@@ -7,7 +7,7 @@ import CommonHead from '@/components/head/commonHead';
 import { TitleHeader } from '@/components/header/titleHeader';
 
 const ANDROID = "android";
-const DIRECTORY = "/app_images";
+const DIRECTORY = "/images";
 
 const Android: NextPageWithLayout = (): JSX.Element => {
     const appNames = ["Battery_Notify", "Piconica"] as const;
