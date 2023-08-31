@@ -3,7 +3,7 @@ import { CommonHeader } from '@/components/header/commonHeader'
 import styles from './layout.module.css'
 
 type Children = {
-  readonly children: React.ReactNode
+  readonly children: React.ReactNode;
 };
 
 const CommonLayout = ({ children }: Children): JSX.Element => {

@@ -22,7 +22,7 @@ const CommonHead = ({ title, thumbnailUrl, description }: HeadProps): JSX.Elemen
             <meta property="og:image" content={metaThumbnailUrl} />
             <meta property="og:description" content={metaDescription} />
             <meta property="og:url" content={`${domainName}${pathname}`} />
-            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
         </Head>
     )
 };

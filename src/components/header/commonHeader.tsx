@@ -25,6 +25,7 @@ export const CommonHeader = (): JSX.Element => {
                     <span>{authorName}</span>
                 </Link>
             </nav>
+
             <LocaleButton />
         </header >
     )

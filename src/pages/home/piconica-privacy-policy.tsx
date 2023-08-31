@@ -4,8 +4,9 @@ import { TitleHeader } from "@/components/header/titleHeader";
 import Link from "next/link";
 import { ReactElement } from "react";
 import CommonHead from "@/components/head/commonHead";
-import CommonLayout from "@/components/layout/commonLayout";
 import { CommonFooter } from "@/components/footer/commonFooter";
+import headerStyles from '@/components/header/header.module.css';
+import layoutStyles from '@/components/layout/layout.module.css';
 
 const PiconicaPrivacyPolicy: NextPageWithLayout = () => {
     return (
@@ -22,12 +23,26 @@ const PiconicaPrivacyPolicy: NextPageWithLayout = () => {
 };
 
 PiconicaPrivacyPolicy.getLayout = (page: ReactElement): React.ReactNode => {
+    const size = 32;
     return (
         <>
             <CommonHead />
-            <CommonLayout>
+            <header className={headerStyles.header}>
+                <nav className={headerStyles.brand} aria-label='brand'>
+                    <Link href='/' title='Back to home'>
+                        <img
+                            src="/images/profile.png"
+                            width={size}
+                            height={size}
+                            alt={authorName}
+                        />
+                        <span>{authorName}</span>
+                    </Link>
+                </nav>
+            </header >
+            <div className={layoutStyles.container}>
                 {page}
-            </CommonLayout>
+            </div>
 
             <CommonFooter />
         </>
