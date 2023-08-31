@@ -23,7 +23,9 @@ const BatterNotify: NextPageWithLayout = (): JSX.Element => {
 
             <h1 className={utilStyles.headingLg}>ダウンロード</h1>
             <p>{appName} は Google Play で入手できます。無料で広告もありません。</p>
-            <a href='https://play.google.com/store/apps/details?id=com.klikki.lab.batterynotify&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <a href='https://play.google.com/store/apps/details?id=com.klikki.lab.batterynotify&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+                target="_blank"
+                rel="noopener noreferrer">
                 <img className={styles.googlePlayBadge}
                     src='https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png'
                     alt='Google Play で手に入れよう'
