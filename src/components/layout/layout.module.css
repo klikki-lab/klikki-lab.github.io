@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.container {
+  max-width: 40rem;
+  width: 95%;
+  padding: 0 1rem;
+  margin: 0 auto 5rem;
+  flex: 1;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem 2rem;
+  font-size: 95%;
+  background-color: #f8f8f8;
+}
+
+.footer_nav {
+  margin: .5rem auto;
+  padding: 0;
+}
+
+.footer_nav li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0 .5rem;
+  text-align: center;
+  content: "|";
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: darkcyan;
+}
+
+.footer_author {
+  width: 100%;
+}
+
+.author {
+  text-align: center;
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+.footer_sosials {
+  margin: 1rem auto;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.social a {
+  padding: 0 .5rem;
+}
+
+.social a:hover {
+  color: darkcyan;
+}
+
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.googlePlayBadge {
+  width: 240px;
+  height: auto;
+}
+
+.cite {
+  font-size: smaller;
+  position: relative;
+  bottom: 4px;
+}

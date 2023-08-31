@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg,
+.headingLg_icon {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+  border-bottom: 1px solid #444;
+}
+
+.headingLg a:hover,
+.headingLg a:focus,
+.headingLg a:active {
+  text-decoration: none;
+}
+
+.headingMd {
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 2.5rem;
+}
+
+.headingSmall {
+  font-size: 0.8rem;
+  line-height: 1;
+  margin-top: 1.5em;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.cite {
+  font-size: small;
+  vertical-align: super;
+  margin-left: 0.1em;
+}
+
+.list li {
+  margin-bottom: 1rem;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: disc;
+}
+
+.noneStyleList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.noneStyleList li {
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}

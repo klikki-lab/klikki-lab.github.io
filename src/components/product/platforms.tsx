@@ -1,0 +1,1 @@
+export type Platforms = 'android' | 'google-chrome-extension' | 'akashic-engine' | 'other'; 

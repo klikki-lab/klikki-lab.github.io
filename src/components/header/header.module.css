@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+.header {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+}
+
+.badge {
+    font-size: large;
+    vertical-align: middle;
+}
+
+.brand {
+    text-decoration: none;
+}
+
+.brand a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.brand span {
+    margin-left: .5rem;
+    font-size: large;
+    vertical-align: middle;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.locale {
+    margin: auto 0 auto auto;
+}
+
+.locale button {
+    font-size: small;
+}
+
+.locale li {
+    font-size: small;
+}
+
+.locale a,
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb {
+    padding: .5rem 0;
+    font-size: 90%;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .5rem;
+    content: "\03e";
+}
+
+.breadcrumb a {
+    text-decoration: underline;
+}
