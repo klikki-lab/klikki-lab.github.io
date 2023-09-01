@@ -9,7 +9,7 @@ import Products from './products';
 import utilStyles from '@/styles/utils.module.css';
 import { authorName } from '@/lib/constant';
 
-const Home: NextPageWithLayout = () => {
+const Home: NextPageWithLayout = (): JSX.Element => {
   return (
     <>
       <TitleHeader props={{ name: authorName, src: '/images/profile.png' }} />
@@ -24,7 +24,7 @@ const Home: NextPageWithLayout = () => {
   )
 };
 
-Home.getLayout = (page: ReactElement): React.ReactNode => {
+Home.getLayout = (page: ReactElement): JSX.Element => {
   return (
     <>
       <CommonHead />
