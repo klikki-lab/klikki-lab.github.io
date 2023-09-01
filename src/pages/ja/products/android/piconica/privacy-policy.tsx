@@ -107,7 +107,7 @@ PrivacyPolicyPage.getLayout = (page: ReactElement): JSX.Element => {
     const title = `${appName} プライバシーポリシー`
     return (
         <>
-            <CommonHead title={title} />
+            <CommonHead title={title} description={`${appName} のプライバシーポリシーです。`}/>
 
             <CommonLayout>
                 {page}

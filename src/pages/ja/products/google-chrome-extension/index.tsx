@@ -30,7 +30,7 @@ GoogleChromeExtension.getLayout = (page: ReactElement): JSX.Element => {
     const title = 'Google Chrome 拡張機能';
     return (
         <>
-            <CommonHead title={title} />
+            <CommonHead title={title} description={`${title}のご紹介。`} />
 
             <CommonLayout>
                 <TitleHeader props={{

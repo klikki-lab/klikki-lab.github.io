@@ -58,7 +58,7 @@ PrivacyPolicyPage.getLayout = (page: ReactElement): JSX.Element => {
     const title = `${appName} Privacy Policy}`;
     return (
         <>
-            <CommonHead title={title} />
+            <CommonHead title={title} description={`${appName}'s privacy policy.`} />
 
             <CommonLayout>
                 {page}

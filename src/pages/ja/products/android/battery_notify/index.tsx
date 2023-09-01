@@ -9,7 +9,7 @@ import CommonHead from "@/components/head/commonHead";
 
 const appName = 'BatteryNotify';
 
-const BatterNotify: NextPageWithLayout = (): JSX.Element => {
+const BatteryNotify: NextPageWithLayout = (): JSX.Element => {
     return (
         <main>
             <TitleHeader props={{ name: appName, src: '/images/battery_notify.png' }} />
@@ -36,10 +36,10 @@ const BatterNotify: NextPageWithLayout = (): JSX.Element => {
     )
 };
 
-BatterNotify.getLayout = (page: ReactElement): JSX.Element => {
+BatteryNotify.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} />
+            <CommonHead title={appName} description={`${appName} のご紹介。`}/>
 
             <CommonLayout>
                 {page}
@@ -52,4 +52,4 @@ BatterNotify.getLayout = (page: ReactElement): JSX.Element => {
     )
 };
 
-export default BatterNotify;
+export default BatteryNotify;

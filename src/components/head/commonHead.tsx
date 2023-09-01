@@ -13,7 +13,7 @@ const CommonHead = ({ title, thumbnailUrl, description }: HeadProps): JSX.Elemen
     const { pathname } = useRouter();
     const _title = title ? `${title} - ${authorName}` : authorName;
     const _thumbnailUrl = thumbnailUrl ?? `${domainName}/images/profile.png`;
-    const _description = description ?? `${authorName}'s website`;
+    const _description = description ?? `Hi there! Welcome to ${authorName}'s website!`;
     return (
         <Head>
             <title>{_title}</title>

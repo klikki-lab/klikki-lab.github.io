@@ -41,7 +41,7 @@ const Linkify: NextPageWithLayout = () => {
 Linkify.getLayout = (page: ReactElement): React.ReactNode => {
     return (
         <>
-            <CommonHead title={appName} />
+            <CommonHead title={appName} description={`${appName} のご紹介。`}/>
 
             <CommonLayout>
                 {page}

@@ -30,10 +30,9 @@ const Android: NextPageWithLayout = (): JSX.Element => {
 };
 
 Android.getLayout = (page: ReactElement): JSX.Element => {
-    const title = 'Android';
     return (
         <>
-            <CommonHead title={title} />
+            <CommonHead title='Android' description='Introducing Android apps.' />
 
             <CommonLayout>
                 <TitleHeader props={{

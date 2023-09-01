@@ -29,7 +29,7 @@ GoogleChromeExtension.getLayout = (page: ReactElement): JSX.Element => {
     const title = GOOGLE_CHROME_EXTENSION.replaceAll('-', ' ').toUpperCase();
     return (
         <>
-            <CommonHead title={title} />
+            <CommonHead title={'Google Chrome Extension'} description={`Introducing Google Chrome Extension.`} />
 
             <CommonLayout>
                 <TitleHeader props={{

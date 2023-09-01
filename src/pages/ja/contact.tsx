@@ -19,7 +19,7 @@ const Contact: NextPageWithLayout = (): JSX.Element => {
 Contact.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead />
+            <CommonHead  title='お問い合わせ' description='ご意見、ご要望はこちらまで。'/>
             <CommonLayout>
                 <TitleHeader props={{
                     name: 'お問い合わせ',

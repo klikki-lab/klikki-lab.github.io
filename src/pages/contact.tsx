@@ -19,7 +19,7 @@ const Contact: NextPageWithLayout = (): JSX.Element => {
 Contact.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead />
+            <CommonHead title='Contact' description='Here to send us your comments or requests.' />
             <CommonLayout>
                 <TitleHeader props={{
                     name: 'Contact',

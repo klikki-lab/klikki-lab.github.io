@@ -27,7 +27,7 @@ const Home: NextPageWithLayout = (): JSX.Element => {
 Home.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead />
+            <CommonHead description={`${authorName} のウェブサイトへようこそ！`}/>
             <CommonLayout>
                 {page}
             </CommonLayout>

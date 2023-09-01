@@ -8,6 +8,7 @@ import Android from './android';
 import CommonHead from '@/components/head/commonHead';
 import GoogleChromeExtension from './google-chrome-extension';
 import { TitleHeader } from '@/components/header/titleHeader';
+import { authorName } from '@/lib/constant';
 
 const DIRECTORY = "/products";
 
@@ -30,11 +31,11 @@ const Products: NextPageWithLayout = (): JSX.Element => {
     )
 };
 
-Products.getLayout = (page: ReactElement): JSX.Element=> {
+Products.getLayout = (page: ReactElement): JSX.Element => {
     const products = 'products';
     return (
         <>
-            <CommonHead title={products} />
+            <CommonHead title={products} description={`Introducing ${authorName}'s ${products}.`} />
 
             <CommonLayout>
                 <TitleHeader props={{

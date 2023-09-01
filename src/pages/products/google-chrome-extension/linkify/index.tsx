@@ -41,7 +41,7 @@ const Linkify: NextPageWithLayout = (): JSX.Element => {
 Linkify.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} />
+            <CommonHead title={appName} description={`Introducing ${appName}, a Google Chrome Extension.`} />
 
             <CommonLayout>
                 {page}

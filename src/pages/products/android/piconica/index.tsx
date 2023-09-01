@@ -49,7 +49,7 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
 Piconica.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} />
+            <CommonHead title={appName} description={`Introducing the ${appName} app.`} />
 
             <CommonLayout>
                 {page}

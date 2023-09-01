@@ -5,8 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/styles/globals.css'
 import '@/styles/global.css'
 
-const DEFAULT_LANGUAGE = 'en';
-
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode
 };

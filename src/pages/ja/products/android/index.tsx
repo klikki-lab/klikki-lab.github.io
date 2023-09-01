@@ -32,7 +32,7 @@ const Android: NextPageWithLayout = (): JSX.Element => {
 Android.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={ANDROID.toUpperCase()} />
+            <CommonHead title='Android' description='Android アプリの紹介。' />
 
             <CommonLayout>
                 <TitleHeader props={{

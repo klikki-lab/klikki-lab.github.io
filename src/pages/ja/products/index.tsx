@@ -8,6 +8,7 @@ import CommonHead from '@/components/head/commonHead';
 import { TitleHeader } from '@/components/header/titleHeader';
 import Android from './android';
 import GoogleChromeExtension from './google-chrome-extension';
+import { authorName } from '@/lib/constant';
 
 const Products: NextPageWithLayout = (): JSX.Element => {
     const DIRECTORY = "/ja/products";
@@ -33,7 +34,7 @@ Products.getLayout = (page: ReactElement): JSX.Element => {
     const products = 'プロダクト';
     return (
         <>
-            <CommonHead title={products} />
+            <CommonHead title={products} description={`${authorName} の制作したものをいくつかご紹介。`} />
 
             <CommonLayout>
                 <TitleHeader props={{
