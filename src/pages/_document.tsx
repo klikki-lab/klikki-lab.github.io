@@ -5,7 +5,8 @@ type Props = {};
 class Document extends NextDocument<Props> {
 
     render() {
-        const currentLocale = this.props.__NEXT_DATA__.locale ?? 'en'
+        const isJapanese = this.props.__NEXT_DATA__.page.startsWith('/ja');
+        const currentLocale = this.props.__NEXT_DATA__.locale ?? isJapanese ? 'ja' : 'en';
         return (
             <Html lang={currentLocale} dir="ltr">
                 <Head>
