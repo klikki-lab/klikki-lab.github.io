@@ -26,6 +26,7 @@ const CommonHead = ({ title, thumbnailUrl, description }: HeadProps): JSX.Elemen
             <meta property="og:url" content={`${domainName}${pathname}`} />
             <meta property="og:site_name" content={authorName} />
             <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+            <link rel="canonical" href={`${domainName}${pathname}`} />
         </Head>
     )
 };
