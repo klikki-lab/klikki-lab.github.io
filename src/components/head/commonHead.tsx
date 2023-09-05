@@ -11,9 +11,9 @@ type HeadProps = {
 
 const CommonHead = ({ title, thumbnailUrl, description }: HeadProps): JSX.Element => {
     const { pathname } = useRouter();
-    const _pathName = pathname === '/' ? "" : pathname;
+    const url = `${domain}${pathname === '/' ? "" : pathname}`;
     const _title = title ? `${title} - ${authorName}` : authorName;
-    const _thumbnailUrl = thumbnailUrl ?? `${domain}/images/profile.png`;
+    const _imagelUrl = thumbnailUrl ?? `${domain}/images/profile.png`;
     const _description = description ?? `Hi there! Welcome to ${authorName}'s website!`;
     return (
         <Head>
@@ -22,12 +22,12 @@ const CommonHead = ({ title, thumbnailUrl, description }: HeadProps): JSX.Elemen
             <meta name='author' content={authorName}></meta>
             <meta name='description' content={_description} />
             <meta property="og:title" content={_title} />
-            <meta property="og:image" content={_thumbnailUrl} />
+            <meta property="og:image" content={_imagelUrl} />
             <meta property="og:description" content={_description} />
-            <meta property="og:url" content={`${domain}${_pathName}`} />
+            <meta property="og:url" content={url} />
             <meta property="og:site_name" content={authorName} />
             <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
-            <link rel="canonical" href={`${domain}${_pathName}`} />
+            <link rel="canonical" href={url} />
         </Head>
     )
 };
