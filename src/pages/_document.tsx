@@ -10,7 +10,6 @@ class Document extends NextDocument<Props> {
         return (
             <Html lang={currentLocale} dir="ltr">
                 <Head>
-                    <meta charSet="utf-8" />
                     <meta name="format-detection" content="telephone=no" />
                     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
                     <link rel="icon" type="image/vnd.microsoft.icon" sizes="144x144" href="/favicon.ico" />
