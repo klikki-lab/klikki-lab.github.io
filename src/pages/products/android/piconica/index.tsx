@@ -30,6 +30,13 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
                     allowFullScreen>
                 </iframe>
 
+                <h1 className={utilStyles.headingLg}>Test devices</h1>
+                <ul>
+                    <li>Pixel 7</li>
+                    <li>Nexus 7</li>
+                    <li>KORG microKEY Air-25</li>
+                </ul>
+
                 <h1 className={utilStyles.headingLg}>Download</h1>
                 <p>{appName} is available on Google Play. Free and no ads.</p>
                 <a href='https://play.google.com/store/apps/details?id=com.klikki.lab.picopico&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'

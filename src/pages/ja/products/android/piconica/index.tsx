@@ -26,6 +26,13 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
                 allowFullScreen>
             </iframe>
 
+            <h1 className={utilStyles.headingLg}>テスト機材</h1>
+            <ul>
+                <li>Pixel 7</li>
+                <li>Nexus 7</li>
+                <li>KORG microKEY Air-25</li>
+            </ul>
+
             <h1 className={utilStyles.headingLg}>ダウンロード</h1>
             <p>Piconica は Google Play で入手できます。無料で広告もありません。</p>
             <a href='https://play.google.com/store/apps/details?id=com.klikki.lab.picopico&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
@@ -44,7 +51,7 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
 Piconica.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} description={`${appName} のご紹介。`}/>
+            <CommonHead title={appName} description={`${appName} のご紹介。`} />
 
             <CommonLayout>
                 {page}
