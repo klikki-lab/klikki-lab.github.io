@@ -32,7 +32,7 @@ const socials: Social[] = [
     },
 ];
 
-const IMAGE_SIZE = 24;
+const IMAGE_SIZE = 28;
 export const Socials = () =>
     <nav className={styles.social} aria-label='social icons'>
         <ul className={utilStyle.noneStyleList}>
