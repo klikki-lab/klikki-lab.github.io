@@ -38,10 +38,10 @@ export const createImageElement = (props: ImageFormatProps) => {
                 src={props.src}
                 width={width}
                 height={height}
-                alt={props.name} />
+                alt={props.name.replaceAll('_', '')} />
         );
     }
-    
+
     const vector = props as Vector;
     return (
         <svg
@@ -51,6 +51,7 @@ export const createImageElement = (props: ImageFormatProps) => {
             height={height}
             viewBox={vector.viewBox}
             fill={vector.color}>
+            <desc>{props.name.replaceAll('_', '')}</desc>
             <path d={vector.path} />
         </svg>
     );
