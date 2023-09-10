@@ -47,6 +47,8 @@ export const Socials = () =>
                             height={IMAGE_SIZE}
                             fill={"currentColor"}
                             viewBox={social.viewBox ?? "0 0 16 16"}>
+
+                            <desc>{social.name}</desc>
                             <path fillOpacity="0.5" d={social.path} />
                         </svg>
                     </a>
