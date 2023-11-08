@@ -39,7 +39,7 @@ const BatteryNotify: NextPageWithLayout = (): JSX.Element => {
 BatteryNotify.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} description={`${appName} のご紹介。`}/>
+            <CommonHead title={appName} image='battery_notify.png' description={`${appName} のご紹介。`} />
 
             <CommonLayout>
                 {page}

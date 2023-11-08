@@ -5,15 +5,15 @@ import { domain } from '@/lib/constant';
 
 type HeadProps = {
     readonly title?: string
-    readonly thumbnailUrl?: string
+    readonly image?: string
     readonly description?: string
 };
 
-const CommonHead = ({ title, thumbnailUrl, description }: HeadProps): JSX.Element => {
+const CommonHead = ({ title, image: image, description }: HeadProps): JSX.Element => {
     const { pathname } = useRouter();
     const absolutePath = `${domain}${!pathname || pathname === '/' ? "" : pathname}`;
     const _title = title ? `${title} - ${authorName}` : authorName;
-    const _imagelUrl = thumbnailUrl ?? `${domain}/images/profile.png`;
+    const _imagelUrl = `${domain}/images/${image}` ?? `${domain}/images/profile.png`;
     const _description = description ?? `Hi there! Welcome to ${authorName}'s website!`;
     return (
         <Head>
