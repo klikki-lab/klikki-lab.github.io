@@ -34,7 +34,7 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
             </ul>
 
             <h1 className={utilStyles.headingLg}>ダウンロード</h1>
-            <p>Piconica は Google Play で入手できます。無料で広告もありません。</p>
+            <p>Piconica は Google Play で入手できます。 無料で広告もありません。 開発者は Google Play 以外で配布されているアプリには関与しておらず推奨しません。</p>
             <a href='https://play.google.com/store/apps/details?id=com.klikki.lab.picopico&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
                 target="_blank"
                 rel="noopener noreferrer">

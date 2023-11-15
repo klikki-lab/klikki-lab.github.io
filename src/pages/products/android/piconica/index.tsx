@@ -38,7 +38,7 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
                 </ul>
 
                 <h1 className={utilStyles.headingLg}>Download</h1>
-                <p>{appName} is available on Google Play. Free and no ads.</p>
+                <p>{appName} is available on Google Play. Free and no ads. The developer is not involved with and does not recommend the app distributed outside of Google Play.</p>
                 <a href='https://play.google.com/store/apps/details?id=com.klikki.lab.picopico&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
                     target="_blank"
                     rel="noopener noreferrer">
