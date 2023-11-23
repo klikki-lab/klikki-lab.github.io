@@ -115,7 +115,7 @@ PrivacyPolicyPage.getLayout = (page: ReactElement): JSX.Element => {
     const title = `${appName} Privacy Policy`;
     return (
         <>
-            <CommonHead title={title} image='piconica.png' description={`${appName}'s privacy policy.`} />
+            <CommonHead title={title} image='piconica_playstore.png' description={`${appName}'s privacy policy.`} />
 
             <CommonLayout>
                 {page}
