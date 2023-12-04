@@ -1,12 +1,12 @@
 User-agent: Googlebot
 Allow: /
-Disallow: https://klikki-lab.com/_next/
+Disallow: /_next/
 
 User-agent: AdsBot-Google
 Disallow: /
 
 User-agent: *
 Allow: /
-Disallow: https://klikki-lab.com/_next/
+Disallow: /_next/
 
 Sitemap: https://klikki-lab.com/sitemap.xml
