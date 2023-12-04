@@ -41,7 +41,10 @@ const BatterNotify: NextPageWithLayout = (): JSX.Element => {
 BatterNotify.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} image='battery_notify.png' description={`Introducing the ${appName} app.`} />
+            <CommonHead
+                title={appName}
+                image='battery_notify.png'
+                description={`Introducing the ${appName} app.`} />
 
             <CommonLayout>
                 {page}

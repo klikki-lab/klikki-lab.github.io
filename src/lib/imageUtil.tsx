@@ -38,7 +38,7 @@ export const createImageElement = (props: ImageFormatProps) => {
                 src={props.src}
                 width={width}
                 height={height}
-                alt={props.name.replaceAll('_', '')} />
+                alt={`${props.name.replaceAll('_', '')} icon`} />
         );
     }
 

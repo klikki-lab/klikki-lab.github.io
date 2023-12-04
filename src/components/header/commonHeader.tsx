@@ -20,7 +20,7 @@ export const CommonHeader = (): JSX.Element => {
                         src="/images/profile.png"
                         width={size}
                         height={size}
-                        alt={authorName}
+                        alt="author badge"
                     />
                     <span>{authorName}</span>
                 </Link>
