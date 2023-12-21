@@ -35,7 +35,9 @@ Products.getLayout = (page: ReactElement): JSX.Element => {
     const products = 'Products';
     return (
         <>
-            <CommonHead title={products} description={`Introducing ${authorName}'s ${products.toLowerCase()}.`} />
+            <CommonHead
+                title={products}
+                description={`Here are some apps developed by ${authorName}.`} />
 
             <CommonLayout>
                 <TitleHeader props={{

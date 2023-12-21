@@ -41,7 +41,9 @@ const Linkify: NextPageWithLayout = (): JSX.Element => {
 Linkify.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} description={`Introducing ${appName}, a Google Chrome Extension.`} />
+            <CommonHead
+                title={appName}
+                description={`${appName} is a Google Chrome extension that allows you to double-click an unlinked URL string to go to that page. `} />
 
             <CommonLayout>
                 {page}

@@ -39,7 +39,10 @@ const BatteryNotify: NextPageWithLayout = (): JSX.Element => {
 BatteryNotify.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} image='battery_notify.png' description={`${appName} のご紹介。`} />
+            <CommonHead
+                title={appName}
+                image='battery_notify.png'
+                description={`${appName} はバッテリー残量をステータスバーに表示する Android デバイス向けのアプリです。`} />
 
             <CommonLayout>
                 {page}

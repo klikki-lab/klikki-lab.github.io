@@ -41,7 +41,9 @@ const Linkify: NextPageWithLayout = () => {
 Linkify.getLayout = (page: ReactElement): React.ReactNode => {
     return (
         <>
-            <CommonHead title={appName} description={`${appName} のご紹介。`}/>
+            <CommonHead
+                title={appName}
+                description={`${appName} はリンクされていない URL 文字列をダブルクリックすると、そのページに移動することができる Google Chrome 拡張機能です。`} />
 
             <CommonLayout>
                 {page}

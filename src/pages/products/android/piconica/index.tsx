@@ -56,7 +56,10 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
 Piconica.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} image='piconica_playstore.png' description={`Introducing the ${appName} app.`} />
+            <CommonHead
+                title={appName}
+                image='piconica_playstore.png'
+                description={`${appName} is an app for Android devices that can play 8-bit sounds.`} />
 
             <CommonLayout>
                 {page}

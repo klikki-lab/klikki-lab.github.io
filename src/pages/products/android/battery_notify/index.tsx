@@ -44,7 +44,7 @@ BatterNotify.getLayout = (page: ReactElement): JSX.Element => {
             <CommonHead
                 title={appName}
                 image='battery_notify.png'
-                description={`Introducing the ${appName} app.`} />
+                description={`${appName} is an app for Android devices that displays battery level in the status bar.`} />
 
             <CommonLayout>
                 {page}

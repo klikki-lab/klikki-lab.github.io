@@ -51,7 +51,10 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
 Piconica.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead title={appName} image='piconica_playstore.png' description={`${appName} のご紹介。`} />
+            <CommonHead
+                title={appName}
+                image='piconica_playstore.png'
+                description={`${appName} は 8 ビット ピコピコ サウンドで演奏できる Android デバイス向けのアプリです。`} />
 
             <CommonLayout>
                 {page}
