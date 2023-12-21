@@ -14,19 +14,21 @@ export const CommonHeader = (): JSX.Element => {
     const size = 32;
     return (
         <header className={styles.header}>
-            <nav className={styles.brand} aria-label='brand'>
-                <Link href={directory} title={title}>
-                    <img
-                        src="/images/profile.png"
-                        width={size}
-                        height={size}
-                        alt="author badge"
-                    />
-                    <span>{authorName}</span>
-                </Link>
-            </nav>
+            <div className={styles.header_container} >
+                <nav className={styles.brand} aria-label='brand'>
+                    <Link href={directory} title={title}>
+                        <img
+                            src="/images/profile.png"
+                            width={size}
+                            height={size}
+                            alt="author badge"
+                        />
+                        <span>{authorName}</span>
+                    </Link>
+                </nav>
 
-            <LocaleButton />
+                <LocaleButton />
+            </div>
         </header >
     )
 };

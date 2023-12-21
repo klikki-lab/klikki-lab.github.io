@@ -4,9 +4,16 @@
     width: 100%;
     padding: 1rem;
     margin: 0;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8; 
+}
+
+.header_container {
+    width: 95%;
+    max-width: 40rem;
+    padding: 0 1rem;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .badge {
@@ -15,6 +22,9 @@
 }
 
 .brand {
+    width: auto;
+    height: auto;
+    margin: 0;
     text-decoration: none;
 }
 

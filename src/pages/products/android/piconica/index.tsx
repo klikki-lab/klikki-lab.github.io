@@ -13,6 +13,7 @@ const Piconica: NextPageWithLayout = (): JSX.Element => {
     return (
         <>
             <TitleHeader props={{ name: appName, src: '/images/piconica.png' }} />
+            
             <main>
                 <h1 className={utilStyles.headingLg}>About this app</h1>
                 <p>

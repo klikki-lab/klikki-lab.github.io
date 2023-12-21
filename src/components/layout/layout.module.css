@@ -24,6 +24,12 @@
   background-color: #f8f8f8;
 }
 
+.footer_container {
+  width: 95%;
+  max-width: 40rem; 
+  margin: 0 auto;
+}
+
 .footer_nav {
   margin: .5rem auto;
   padding: 0;
