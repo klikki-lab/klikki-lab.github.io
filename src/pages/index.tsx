@@ -16,7 +16,7 @@ const Home: NextPageWithLayout = (): JSX.Element => {
       <p className="text-center">Hi there!</p>
       <main>
         <h2 className={utilStyles.headingLg}>
-          <Link href='/products'>Porducts</Link>
+          <Link href='/products'>Products</Link>
         </h2>
         <Products />
       </main>
