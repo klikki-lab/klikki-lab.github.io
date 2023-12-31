@@ -231,4 +231,95 @@
             href="https://klikki-lab.com/ja/products/google-chrome-extension/linkify" />
     </url>
 
+    <url>
+        <loc>https://klikki-lab.com/products/akashic-engine</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine" />
+    </url>
+    <url>
+        <loc>https://klikki-lab.com/ja/products/akashic-engine</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine" />
+    </url>
+
+    <url>
+        <loc>https://klikki-lab.com/products/akashic-engine/virus-flipper</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/virus-flipper" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/virus-flipper" />
+    </url>
+    <url>
+        <loc>https://klikki-lab.com/ja/products/akashic-engine/virus-flipper</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/virus-flipper" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/virus-flipper" />
+    </url>
+
+    <url>
+        <loc>https://klikki-lab.com/products/akashic-engine/meteor-panic</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/meteor-panic" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/meteor-panic" />
+    </url>
+    <url>
+        <loc>https://klikki-lab.com/ja/products/akashic-engine/meteor-panic</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/meteor-panic" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/meteor-panic" />
+    </url>
+
+    <url>
+        <loc>https://klikki-lab.com/products/akashic-engine/demonstration</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/demonstration" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/demonstration" />
+    </url>
+    <url>
+        <loc>https://klikki-lab.com/ja/products/akashic-engine/demonstration</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/demonstration" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/demonstration" />
+    </url>
 </urlset>

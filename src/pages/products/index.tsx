@@ -9,6 +9,7 @@ import CommonHead from '@/components/head/commonHead';
 import GoogleChromeExtension from './google-chrome-extension';
 import { TitleHeader } from '@/components/header/titleHeader';
 import { authorName } from '@/lib/constant';
+import AkashicEngine from './akashic-engine';
 
 const DIRECTORY = "/products";
 
@@ -26,6 +27,12 @@ const Products: NextPageWithLayout = (): JSX.Element => {
                     <Link href={`${DIRECTORY}/google-chrome-extension`}>Google Chrome Extension</Link>
                 </h3>
                 <GoogleChromeExtension />
+            </section>
+            <section>
+                <h3 className={`${utilStyles.headingMd}`}>
+                    <Link href={`${DIRECTORY}/akashic-engine`}>Akashic Engine</Link>
+                </h3>
+                <AkashicEngine />
             </section>
         </>
     )
