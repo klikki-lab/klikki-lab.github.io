@@ -71,7 +71,7 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
             }} />
 
             <div className={styles.note}>
-                <p><strong>🔊 The audio will play when you start the game.</strong></p>
+                <p><strong>🔊 When you start the game, a audio will be played.</strong></p>
             </div>
 
             <div className={styles.game_container}>
