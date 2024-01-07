@@ -56,7 +56,7 @@ AkashicEngine.getLayout = (page: ReactElement): JSX.Element => {
                     <Link href={'https://akashic-games.github.io/'}>
                         https://akashic-games.github.io/
                     </Link>
-                    &nbsp;for details on the {title}.
+                    &nbsp;for details on the {title} (only Japanese).
                 </p>
 
                 {page}
