@@ -20,7 +20,7 @@ const AkashicEngine: NextPageWithLayout = (): JSX.Element => {
         { name: "Demonstration", url: "demonstration" },
         { name: "Bento Challenge", url: "hayaben-challenge" },
         { name: "Magical Dossun", url: "magical-dossun" },
-        { name: "Sakera Heaven", url: "sakura-heaven" },
+        { name: "Sakura Heaven", url: "sakura-heaven" },
     ];
     return (
         <div className='row justify-content'>
