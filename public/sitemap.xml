@@ -322,4 +322,73 @@
             hreflang="ja"
             href="https://klikki-lab.com/ja/products/akashic-engine/demonstration" />
     </url>
+
+    <url>
+        <loc>https://klikki-lab.com/products/akashic-engine/hayaben-challenge</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/hayaben-challenge" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/hayaben-challenge" />
+    </url>
+    <url>
+        <loc>https://klikki-lab.com/ja/products/akashic-engine/hayaben-challenge</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/hayaben-challenge" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/hayaben-challenge" />
+    </url>
+
+    <url>
+        <loc>https://klikki-lab.com/products/akashic-engine/magical-dossun</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/magical-dossun" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/magical-dossun" />
+    </url>
+    <url>
+        <loc>https://klikki-lab.com/ja/products/akashic-engine/magical-dossun</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/magical-dossun" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/magical-dossun" />
+    </url>
+
+    <url>
+        <loc>https://klikki-lab.com/products/akashic-engine/sakura-heaven</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/sakura-heaven" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/sakura-heaven" />
+    </url>
+    <url>
+        <loc>https://klikki-lab.com/ja/products/akashic-engine/sakura-heaven</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/products/akashic-engine/sakura-heaven" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/products/akashic-engine/sakura-heaven" />
+    </url>
 </urlset>
