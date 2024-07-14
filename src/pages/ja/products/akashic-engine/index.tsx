@@ -18,6 +18,7 @@ const AkashicEngine: NextPageWithLayout = (): JSX.Element => {
         { name: "ウイルスフリッパー", url: "virus-flipper" },
         { name: "メテオパニック", url: "meteor-panic" },
         { name: "デモンストレーション", url: "demonstration" },
+        { name: "サクラヘヴン", url: "sakura-heaven" },
     ];
     return (
         <div className='row justify-content'>
