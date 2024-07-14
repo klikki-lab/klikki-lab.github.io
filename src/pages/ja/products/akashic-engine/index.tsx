@@ -18,6 +18,7 @@ const AkashicEngine: NextPageWithLayout = (): JSX.Element => {
         { name: "ウイルスフリッパー", url: "virus-flipper" },
         { name: "メテオパニック", url: "meteor-panic" },
         { name: "デモンストレーション", url: "demonstration" },
+        { name: "早弁チャレンジ", url: "hayaben-challenge" },
         { name: "サクラヘヴン", url: "sakura-heaven" },
     ];
     return (
