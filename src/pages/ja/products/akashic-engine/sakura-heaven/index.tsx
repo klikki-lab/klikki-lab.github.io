@@ -16,7 +16,7 @@ const MeteorPanic: NextPageWithLayout = () => {
         <main>
             <h1 className={utilStyles.headingLg}>遊び方</h1>
             <p>
-                リズムに合わせてタイミングよくクリック。PC は 'Z' キーでも可。
+                リズムに合わせてタイミングよくクリック。PC は &apos;Z&apos; キーでも可。
                 目押しはとても難しいです。リズムにノッてクリックしよう！
             </p>
 

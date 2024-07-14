@@ -16,7 +16,7 @@ const MeteorPanic: NextPageWithLayout = () => {
         <main>
             <h1 className={utilStyles.headingLg}>How to play</h1>
             <p>
-                Click in time with the rhythm. On a PC, you can also use the 'Z' key.
+                Click in time with the rhythm. On a PC, you can also use the &apos;Z&apos; key.
                 Timing your clicks perfectly is very difficult. Get into the rhythm and click away!
             </p>
 
