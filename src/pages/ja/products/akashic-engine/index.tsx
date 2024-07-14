@@ -19,6 +19,7 @@ const AkashicEngine: NextPageWithLayout = (): JSX.Element => {
         { name: "メテオパニック", url: "meteor-panic" },
         { name: "デモンストレーション", url: "demonstration" },
         { name: "早弁チャレンジ", url: "hayaben-challenge" },
+        { name: "マジカルどっすん", url: "magical-dossun" },
         { name: "サクラヘヴン", url: "sakura-heaven" },
     ];
     return (
@@ -45,7 +46,7 @@ AkashicEngine.getLayout = (page: ReactElement): JSX.Element => {
     const title = 'Akashic Engine';
     return (
         <>
-            <CommonHead title={title} description={`${title} で制作したゲームの紹介。`} />
+            <CommonHead title={title} description={`${title} で制作した HTML ゲームの紹介。`} />
 
             <CommonLayout>
                 <TitleHeader props={{
