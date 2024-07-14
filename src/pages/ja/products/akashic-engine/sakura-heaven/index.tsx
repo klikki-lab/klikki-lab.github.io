@@ -28,7 +28,7 @@ const MeteorPanic: NextPageWithLayout = () => {
 
             <h1 className={utilStyles.headingLg}>音楽・効果音</h1>
             <p>(C)PANICPUMPKIN</p>
-            <Link href={'https://pansound.com/panicpumpkin/c'}>
+            <Link href={'https://pansound.com/panicpumpkin/'}>
                 https://pansound.com/panicpumpkin/
             </Link>
 
