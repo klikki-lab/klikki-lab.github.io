@@ -17,13 +17,14 @@ const MeteorPanic: NextPageWithLayout = () => {
             <h1 className={utilStyles.headingLg}>How to play</h1>
             <p>
                 Sneak in some lunch before the teacher notices!
-                If you get caught, you'll get a lecture! Click the screen to start eating.
+                If you get caught, you&apos;ll get a lecture! Click the screen to start eating.
                 Be careful, as the teacher will occasionally turn around!
             </p>
 
             <h1 className={utilStyles.headingLg}>Basic Techniques</h1>
             <ul>
-                <li>The teacher's glasses always slip right before they turn towards the students. Don't miss it! But be aware, there are occasional fake-outs!</li>
+                <li>The teacher&apos;s glasses always slip right before they turn towards the students.
+                    Don&apos;t miss it! But be aware, there are occasional fake-outs!</li>
                 <li>When the teacher turns back to the blackboard, they sometimes fake it. Be careful!</li>
             </ul>
 
