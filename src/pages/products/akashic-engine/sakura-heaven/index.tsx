@@ -16,25 +16,15 @@ const MeteorPanic: NextPageWithLayout = () => {
         <main>
             <h1 className={utilStyles.headingLg}>How to play</h1>
             <p>
-                Destroy the meteorite by firing a missile at the location you click (touch).
-                There are 3 bases, and 10 missiles are deployed at each base.
-                If a meteorite hits your base, it will be destroyed.
-                If all bases are destroyed or the missiles run out, you will not be able to take action until the next wave.
-                At the end of the wave, the destroyed base will be repaired and missiles will be replenished.
+                Click in time with the rhythm. On a PC, you can also use the 'Z' key.
+                Timing your clicks perfectly is very difficult. Get into the rhythm and click away!
             </p>
 
-            <h1 className={utilStyles.headingLg}>Basic techniques</h1>
-            <ul>
-                <li>The basic idea is to predict the trajectory of the meteorite and shoot the missile slightly ahead (deviation shooting).</li>
-                <li>The missile explodes at the point of impact, creating a blast wave. It is easier to detonate an meteorite with a blast wave than to hit it directly with a missile.</li>
-                <li>You can aim for a high score by involving a lot of meteorites with one blast.</li>
-                <li>Killing a UFO increases missile speed and blast radius.</li>
-            </ul>
-
-            <h1 className={utilStyles.headingLg}>Advanced technique</h1>
-            <ul>
-                <li>If you hit a meteorite directly with a missile, the blast range will be wider than normal.</li>
-            </ul>
+            <h1 className={utilStyles.headingLg}>Known Issues</h1>
+            <p>
+                It seems that there can be significant audio lag, making the game unplayable for some players.
+                It is not yet known under which conditions this issue occurs.
+            </p>
 
             <h1 className={utilStyles.headingLg}>Music/sound effects</h1>
             <p>(C)PANICPUMPKIN</p>
@@ -44,8 +34,8 @@ const MeteorPanic: NextPageWithLayout = () => {
 
             <h1 className={utilStyles.headingLg}>Source code</h1>
             <p>The source code is now available on GitHub.</p>
-            <Link href={'https://github.com/klikki-lab/meteor_panic'}>
-                https://github.com/klikki-lab/meteor_panic
+            <Link href={'https://github.com/klikki-lab/sakura_heaven'}>
+                https://github.com/klikki-lab/sakura_heaven
             </Link>
 
         </main>
