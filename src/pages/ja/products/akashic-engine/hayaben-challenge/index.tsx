@@ -17,7 +17,7 @@ const MeteorPanic: NextPageWithLayout = () => {
             <h1 className={utilStyles.headingLg}>遊び方</h1>
             <p>
                 先生の目を盗んで早弁だ！見つかったら説教されるぞ！
-                画面をクリック中は早弁します。時々先生が振り返るので気をつけよう！
+                画面を長押し中は早弁します。時々先生が振り返るので気をつけよう！
             </p>
 
             <h1 className={utilStyles.headingLg}>基本テクニック</h1>
@@ -47,7 +47,7 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
         <>
             <CommonHead
                 title={appName}
-                description={`${appName} は Akashic Engine を使用したゲームです。`}
+                description={'先生の目を盗んで早弁だ！見つかったら説教されるぞ！画面を長押し中は早弁します。時々先生が振り返るので気をつけよう！'}
             />
 
             <CommonHeader />

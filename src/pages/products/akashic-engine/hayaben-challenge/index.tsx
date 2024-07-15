@@ -49,7 +49,7 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
         <>
             <CommonHead
                 title={appName}
-                description={`${appName} game is a game based on a traditional style used in Japanese schools (just kidding).`}
+                description={`${appName} is a game themed on the traditional style of Japanese schools (just kidding).`}
             />
 
             <CommonHeader />
