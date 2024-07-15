@@ -25,8 +25,8 @@ const MeteorPanic: NextPageWithLayout = () => {
 
             <h1 className={utilStyles.headingLg}>Source code</h1>
             <p>The source code is now available on GitHub.</p>
-            <Link href={'https://github.com/klikki-lab/curve'}>
-                https://github.com/klikki-lab/curve
+            <Link href={'https://github.com/klikki-lab/demonstration'}>
+                https://github.com/klikki-lab/demonstration
             </Link>
         </main>
     )
@@ -37,7 +37,7 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
         <>
             <CommonHead
                 title={appName}
-                description={`${appName} is made using Akashic Engine.`}
+                description={`${appName} is a curved animation using the Akashic Engine.`}
                 image='akashic-engine/demonstration.png'
             />
 

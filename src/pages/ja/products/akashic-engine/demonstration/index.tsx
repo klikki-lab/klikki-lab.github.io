@@ -16,8 +16,8 @@ const MeteorPanic: NextPageWithLayout = () => {
         <main>
             <h1 className={utilStyles.headingLg}>ソースコード</h1>
             <p>{appName} は GitHub でソースコードを公開中です。</p>
-            <Link href={'https://github.com/klikki-lab/curve'}>
-                https://github.com/klikki-lab/curve
+            <Link href={'https://github.com/klikki-lab/demonstration'}>
+                https://github.com/klikki-lab/demonstration
             </Link>
         </main>
     )
@@ -28,7 +28,7 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
         <>
             <CommonHead
                 title={appName}
-                description={`${appName} は Akashic Engine を使用したニコ生ゲームです。`}
+                description={`${appName} は Akashic Engine を使用した曲線アニメーションです。`}
                 image='akashic-engine/demonstration.png'
             />
 
