@@ -49,9 +49,7 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
             <CommonHead
                 title={appName}
                 description={
-                    `${appName} is a rhythm game. Here's how to play: simply click in time with the rhythm.
-                    On PC, you can also use the Z key. Timing your clicks by sight is very challenging.
-                    Get into the rhythm and click away!`
+                    `${appName} is a rhythm game. Here's how to play: simply click in time with the rhythm. On PC, you can also use the Z key. Timing your clicks by sight is very challenging. Get into the rhythm and click away!`
                 }
             />
 
