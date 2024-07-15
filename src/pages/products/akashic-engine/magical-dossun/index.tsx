@@ -48,7 +48,10 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
         <>
             <CommonHead
                 title={appName}
-                description={`${appName} is an HTML game using the Akashic Engine.`}
+                description={
+                    `${appName} is an HTML game using the Akashic Engine.
+                    Control the Bunny Egg and crack as many eggs as you can!`
+                }
             />
 
             <CommonHeader />
