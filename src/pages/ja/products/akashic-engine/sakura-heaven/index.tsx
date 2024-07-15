@@ -47,7 +47,11 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
         <>
             <CommonHead
                 title={appName}
-                description={`${appName} は Akashic Engine を使用した HTML ゲームです。`}
+                description={
+                    `${appName} は Akashic Engine 製のリズムゲームです。
+                    遊び方はリズムに合わせてタイミングよくクリックするだけ。
+                    PC は Z キーでも可。目押しはとても難しいです。リズムにノッてクリックしよう！`
+                }
             />
 
             <CommonHeader />

@@ -16,8 +16,9 @@ const MeteorPanic: NextPageWithLayout = () => {
         <main>
             <h1 className={utilStyles.headingLg}>How to play</h1>
             <p>
-                Click in time with the rhythm. On a PC, you can also use the &apos;Z&apos; key.
-                Timing your clicks perfectly is very difficult. Get into the rhythm and click away!
+                Simply click in time with the rhythm.
+                On PC, you can also use the Z key. Timing your clicks by sight is very challenging.
+                Get into the rhythm and click away!
             </p>
 
             <h1 className={utilStyles.headingLg}>Known Issues</h1>
@@ -47,7 +48,11 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
         <>
             <CommonHead
                 title={appName}
-                description={`${appName} is a rhythm game.`}
+                description={
+                    `${appName} is a rhythm game. Here's how to play: simply click in time with the rhythm.
+                    On PC, you can also use the Z key. Timing your clicks by sight is very challenging.
+                    Get into the rhythm and click away!`
+                }
             />
 
             <CommonHeader />
