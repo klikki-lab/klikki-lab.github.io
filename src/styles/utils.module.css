@@ -92,3 +92,13 @@
 .lightText {
   color: #666;
 }
+
+.productName {
+  font-size: 92%;
+  text-align: center;
+  width: 96px;
+
+  /* text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; */
+}

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Platforms } from './platforms';
 import { ImageFormatProps, createImageElement } from '@/lib/imageUtil';
+import utilStyles from '@/styles/utils.module.css';
 
 export type ProductProps = ImageFormatProps & {
     readonly platform: Platforms;
@@ -13,10 +14,11 @@ export const Product = ({ props }: { props: ProductProps }) => {
     const directory = `${lang}products`;
     const url = props.url ? props.url : props.name?.toLowerCase();
     const imageSize = 96;
+    const appName = props.name.replaceAll('_', '');
     return (
         <Link href={`${directory}/${props.platform}/${url}`}>
             {createImageElement({ ...props, width: props.width ?? imageSize, height: props.height ?? imageSize })}
-            <div className='text-center'>{props.name.replaceAll('_', '')}</div>
+            <div className={utilStyles.productName}>{appName}</div>
         </Link>
     );
 }
