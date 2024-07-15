@@ -44,7 +44,7 @@ MeteorPanic.getLayout = (page: ReactElement): React.ReactNode => {
         <>
             <CommonHead
                 title={appName}
-                description={`${appName} は Akashic Engine を使用したニコ生ゲームです。`}
+                description={`${appName} は次々とやってくるウイルスを弾き返すミニゲームです。`}
             />
 
             <CommonHeader />
