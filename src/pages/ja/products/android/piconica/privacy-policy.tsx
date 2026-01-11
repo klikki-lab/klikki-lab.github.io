@@ -5,7 +5,7 @@ import { TitleHeader } from "@/components/header/titleHeader";
 import { CommonFooter } from "@/components/footer/commonFooter";
 import CommonLayout from "@/components/layout/commonLayout";
 import CommonHead from "@/components/head/commonHead";
-import utilStyles from '@/styles/utils.module.css'
+import utilStyles from '@/styles/utils.module.css';
 import { authorName, mailAddress } from "@/lib/constant";
 
 const appName = 'Piconica / ピコニカ';
