@@ -13,25 +13,25 @@ const PrivacyPolicy: NextPageWithLayout = (): JSX.Element => {
         <>
             <main>
                 <h1 className={utilStyles.headingLg}>Introduction</h1>
-                <p>This Privacy Policy explains how information is handled on Klikki Lab's Website (hereinafter referred to as “this Site”).</p>
+                <p>This Privacy Policy explains how information is handled on Klikki Lab&apos;s Website (hereinafter referred to as “this Site”).</p>
 
                 <h2 className={utilStyles.headingMd}>1. Collection of Personal Information</h2>
                 <p>
                     This Site does not collect any personal information during normal browsing.<br />
-                    However, if a user voluntarily contacts the site operator directly via the provided email address, the user's email address and the content of the inquiry may be collected.
+                    However, if a user voluntarily contacts the site operator directly via the provided email address, the user&apos;s email address and the content of the inquiry may be collected.
                 </p>
 
                 <h2 className={utilStyles.headingMd}>2. Purpose of Use of Personal Information</h2>
                 <p>
                     Personal information included in emails sent directly by users will be used solely for the purpose of responding to inquiries and for necessary communication.
                     Such information will not be used for any other purposes.<br />
-                    In addition, collected emails and personal information will not be disclosed or transferred to third parties without the user's consent, except where required by law or where permitted by public order and morals.
+                    In addition, collected emails and personal information will not be disclosed or transferred to third parties without the user&apos;s consent, except where required by law or where permitted by public order and morals.
                 </p>
 
                 <h2 className={utilStyles.headingMd}>3. Cookies</h2>
                 <p>
                     This Site does not use cookies.
-                    Accordingly, no information is stored in the user's browser, and no tracking of user behavior is performed.
+                    Accordingly, no information is stored in the user&apos;s browser, and no tracking of user behavior is performed.
                 </p>
 
                 <h2 className={utilStyles.headingMd}>4. Access Analytics Tools</h2>
@@ -41,7 +41,7 @@ const PrivacyPolicy: NextPageWithLayout = (): JSX.Element => {
 
                 <h2 className={utilStyles.headingMd}>5. Advertising</h2>
                 <p>
-                    This Site does not use third-party advertising services and does not deliver advertisements based on users' interests or behavior.
+                    This Site does not use third-party advertising services and does not deliver advertisements based on users&apos; interests or behavior.
                 </p>
 
                 <h2 className={utilStyles.headingMd}>6. Changes to This Policy</h2>

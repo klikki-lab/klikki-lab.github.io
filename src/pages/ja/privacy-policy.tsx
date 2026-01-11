@@ -13,7 +13,7 @@ const PrivacyPolicy: NextPageWithLayout = (): JSX.Element => {
         <>
             <main>
                 <h1 className={utilStyles.headingLg}>はじめに</h1>
-                <p>本プライバシーポリシーは、Klikki Lab's ウェブサイト（以下、当サイト）における、利用者の情報の取り扱いについて説明するものです。</p>
+                <p>本プライバシーポリシーは、Klikki Lab&apos;s ウェブサイト（以下、当サイト）における、利用者の情報の取り扱いについて説明するものです。</p>
 
                 <h2 className={utilStyles.headingMd}>1. 個人情報の取得について</h2>
                 <p>
