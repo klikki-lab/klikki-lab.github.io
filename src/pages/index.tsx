@@ -34,7 +34,7 @@ Home.getLayout = (page: ReactElement): JSX.Element => {
 
       <CommonFooter props={[
         { name: 'Contact', url: 'contact' },
-        // { name: t("webSitePolicy.title"), url: t("webSitePolicy.url") }
+        { name: 'Privacy Policy', url: 'privacy-policy' },
       ]} />
     </>
   )

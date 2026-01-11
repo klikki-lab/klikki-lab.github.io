@@ -27,14 +27,14 @@ const Home: NextPageWithLayout = (): JSX.Element => {
 Home.getLayout = (page: ReactElement): JSX.Element => {
     return (
         <>
-            <CommonHead description={`${authorName} のウェブサイトへようこそ！`}/>
+            <CommonHead description={`${authorName} のウェブサイトへようこそ！`} />
             <CommonLayout>
                 {page}
             </CommonLayout>
 
             <CommonFooter props={[
                 { name: 'お問い合わせ', url: './ja/contact' },
-                // { name: t("webSitePolicy.title"), url: t("webSitePolicy.url") }
+                { name: 'プライバシーポリシー', url: '/ja/privacy-policy' },
             ]} />
         </>
     )
