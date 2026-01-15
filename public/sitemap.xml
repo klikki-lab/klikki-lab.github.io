@@ -48,6 +48,29 @@
     </url>
 
     <url>
+        <loc>https://klikki-lab.com/privacy-policy</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/privacy-policy" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/privacy-policy" />
+    </url>
+    <url>
+        <loc>https://klikki-lab.com/ja/privacy-policy</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://klikki-lab.com/privacy-policy" />
+        <xhtml:link
+            rel="alternate"
+            hreflang="ja"
+            href="https://klikki-lab.com/ja/privacy-policy" />
+    </url>
+
+    <url>
         <loc>https://klikki-lab.com/products</loc>
         <xhtml:link
             rel="alternate"
